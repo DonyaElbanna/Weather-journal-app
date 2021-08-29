@@ -2,7 +2,14 @@ body {
   background: #fffff8;
   font-family: -apple-system, BlinkMacSystemFont, sans-serif;
 }
-
+.center {
+  border-radius: 2rem;
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+  text-align: center;
+  width: 50vw;
+}
 #app {
   /* grid-template-columns:  */
   height: 100vh;
@@ -10,7 +17,7 @@ body {
   background-color: #cccccc;
   background-repeat: no-repeat;
   background-size: cover;
-  color: rgb(255, 255, 255);
+  color: rgb(26, 1, 255);
   padding: 20px;
   font-family: "Oswald", sans-serif;
 }
@@ -20,6 +27,7 @@ body {
   -webkit-background-clip: text;
   background-clip: text;
   color: transparent;
+  margin-top: 0;
 }
 
 label {
@@ -29,21 +37,36 @@ label {
 
 .title {
   font-size: 30px;
-  color: rgb(255, 196, 1);
+  color: rgb(26, 1, 255);
   background: rgba(83, 96, 124, 0.2);
   width: 200px;
   margin-top: 20px;
   margin-bottom: 20px;
+  border-radius: 2rem;
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+  text-align: center;
 }
 
 .titleZip {
   background: rgba(83, 96, 124, 0.2);
   width: 140px;
+  border-radius: 2rem;
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+  text-align: center;
 }
 
 .titleFeel {
   background: rgba(83, 96, 124, 0.2);
   width: 270px;
+  border-radius: 2rem;
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+  text-align: center;
 }
 
 .headline {
@@ -58,16 +81,16 @@ label {
 
 button {
   width: 100px;
-  height: 60px;
+  height: 40px;
   border-radius: 15px;
-  background:    rgb(255, 175, 1);
+  background: rgb(255, 175, 1);
   color: white;
   font-size: 25px;
   font-family: "Oswald", sans-serif;
   border: none;
   box-shadow: 2px 4px 5px #444;
   display: inline;
-  margin-top: 20px;
+  margin-top: 10px;
 }
 
 textarea {
@@ -78,7 +101,7 @@ textarea {
   border-radius: 15px;
 }
 
-input  {
+input {
   background: #d9dce9;
   color: black;
   font-size: 30px;
